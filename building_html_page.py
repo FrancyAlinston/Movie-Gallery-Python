@@ -261,7 +261,7 @@ def create_movie_tiles_content(movies):
 
 def create_movies_page(movies):
     # Create or overwrite the output file
-    output_file = open('on_the_fly.html', 'w')
+    output_file = open('movie_gallery_python.html', 'w')
 
     # Replace the movie tiles placeholder generated content
     rendered_content = main_page_content.format(
